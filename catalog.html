@@ -26,24 +26,24 @@
           <section class="filters">
             <h2 class="visually-hidden">Фильтр товаров</h2>
             <form class="filter" method="get">
-              <fieldset>
+              <fieldset class="grid">
                 <legend>Сетка:</legend>
                 <ul>
                   <li class="filter-option">
-                  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-type" value="adaptive" checked>
-                    Адаптивная
+                  <input class="filter-input-radio" type="radio" id="Адаптивная" name="product-type" value="adaptive" checked>
+                  <label for="Адаптивная">Адаптивная</label>
+                  </li>
+                <li class="filter-option">
+                  <input class="filter-input-radio" type="radio" id="Фиксированная" name="product-type" value="fix">
+                  <label for="Фиксированная">Фиксированная</label>
                 </li>
                 <li class="filter-option">
-                  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-type" value="fix">
-                    Фиксированная
-                </li>
-                <li class="filter-option">
-                  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-type" value="stretch">
-                    Резиновая
+                  <input class="filter-input-radio" type="radio" id="Резиновая" name="product-type" value="stretch">
+                  <label for="Резиновая">Резиновая</label>
                 </li>
               </ul>
             </fieldset>
-            <fieldset>
+            <fieldset class="additions">
               <legend>Особенности:</legend>
               <ul>
                 <li class="filter-option">
@@ -106,8 +106,8 @@
           </footer>
           <section class="modal">
             <h2>Напишите нам</h2>
-            <p>Введите свой логин и пароль.</p>
-            <form class="write us" method="post">
+            <div>Введите свой логин и пароль.</div>
+            <form class="modal-form" method="post">
               <p>
                 <label for="name">Ваше имя:</label>
                 <input id="name" type="text" name="name" placeholder="Имя Фамилия">
@@ -120,7 +120,7 @@
                 <label for="message">Текст письма:</label>
                 <textarea name="message" id="message" placeholder="Письмо в свододной форме"></textarea>
               </p>
-              <button class="button" type="submit">
+              <button class="modal-submit" type="submit">
                 Отправить
               </button>
             </form>
