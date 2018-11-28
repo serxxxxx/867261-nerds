@@ -26,8 +26,8 @@
           <section class="filters">
             <h2 class="visually-hidden">Фильтр товаров</h2>
             <form class="filter" method="get">
-              <fieldset class="grid">
-                <legend>Сетка:</legend>
+              <fieldset>
+                <legend class="grid">Сетка:</legend>
                 <ul>
                   <li class="filter-option">
                   <input class="filter-input-radio" type="radio" id="Адаптивная" name="product-type" value="adaptive" checked>
@@ -43,8 +43,8 @@
                 </li>
               </ul>
             </fieldset>
-            <fieldset class="additions">
-              <legend>Особенности:</legend>
+            <fieldset>
+              <legend class="additions">Особенности:</legend>
               <ul>
                 <li class="filter-option">
                   <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" checked>
@@ -106,20 +106,20 @@
           </footer>
           <section class="modal">
             <h2>Напишите нам</h2>
-            <div>Введите свой логин и пароль.</div>
+            <p>Введите свой логин и пароль.</p>
             <form class="modal-form" method="post">
-              <p>
+              <div>
                 <label for="name">Ваше имя:</label>
                 <input id="name" type="text" name="name" placeholder="Имя Фамилия">
-              </p>
-              <p>
+              </div>
+              <div>
                 <label for="e-mail">Ваш e-mail:</label>
                 <input id="e-mail" type="email" name="e-mail" placeholder="e-mail@example.com">
-              </p>
-              <p>
+              </div>
+              <div>
                 <label for="message">Текст письма:</label>
                 <textarea name="message" id="message" placeholder="Письмо в свододной форме"></textarea>
-              </p>
+              </div>
               <button class="modal-submit" type="submit">
                 Отправить
               </button>
