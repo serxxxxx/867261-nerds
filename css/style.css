@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+  background-image: url("img/bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+p {
+text-transform: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-title {
+  font-size: 55px;
+  line-height: 55px;
+  text-transform: none;
+
+  background-color: #eeeeee;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+
+  background-color: #eeeeee;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a,
+.basket-navigation a {
+  color: #000000;
+}
+
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.basket-navigation a:hover,
+.basket-navigation a:focus {
+  color: #ff6666;
+}
+
+.site-navigation a:active,
+.basket-navigation a:active {
+  color: #999999;
+}
+
+.products-list {
+  list-style: none;
+}
+
+.products-item {
+  text-align: left;
+}
+
+.products-item h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.products-link {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.products-link-red {
+  background-color: #fb565a;
+}
+
+.products-link-green {
+  background-color: #00cc66;
+}
+
+.products-link-yellow {
+  background-color: #efc84a;
+}
+
+.option-list {
+  list-style: none;
+}
+
+.additions-list {
+  list-style: none;
+}
+
+.button {
+  font: inherit;
+
+  text-align: center;
+  color: #000000;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #eeeeee;
+  border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #cccccc;
+}
+
+.filter{
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.grid {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.additions {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.footer-social {
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+.friendship {
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.social-list {
+  list-style: none;
+}
+
+.modal,
+.visually-hidden {
+  display: none;
+}

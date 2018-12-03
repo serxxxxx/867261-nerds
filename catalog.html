@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
       <header class="main-header">
@@ -28,7 +31,7 @@
             <form class="filter" method="get">
               <fieldset>
                 <legend class="grid">Сетка:</legend>
-                <ul>
+                <ul class="option-list">
                   <li class="filter-option">
                   <input class="filter-input-radio" type="radio" id="Адаптивная" name="product-type" value="adaptive" checked>
                   <label for="Адаптивная">Адаптивная</label>
@@ -45,7 +48,7 @@
             </fieldset>
             <fieldset>
               <legend class="additions">Особенности:</legend>
-              <ul>
+              <ul class="additions-list">
                 <li class="filter-option">
                   <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" checked>
                   <label for="filter-slider">Слайдер</label>
@@ -93,11 +96,11 @@
           </main>
           <footer>
             <div class="footer-social">
-              <b>Давайте дружить, это выгодно!</b>
+              <b class="friendship">Давайте дружить, это выгодно!</b>
               <p>Скидка 10% для друзей из социальных сетей.</p>
             </div>
             <div class="footer-social-link">
-              <ul>
+              <ul class="social-list">
                 <li><a class="social-link-vk" href="#">Вконтакте</a></li>
                 <li><a class="social-link-fb" href="#">Фейсбук</a></li>
                 <li><a class="social-link-inst" href="#">Инстаграм</a></li>
